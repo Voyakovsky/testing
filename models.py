@@ -7,3 +7,4 @@ class User(Base):
     __tablename__ = "test_users"
     id = Column(Integer, primary_key=True)
     name = Column(Text)
+    hashed_password = Column(Text)
